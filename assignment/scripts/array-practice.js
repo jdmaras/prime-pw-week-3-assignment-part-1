@@ -36,7 +36,7 @@ console.log("Last animal is", animalArray[3]);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length,
 //      instead of the exact index number of the last item
-console.log("Last animal is", animalArray.length - 1);
+console.log("Last animal is", animalArray[animalArray.length - 1]);
 
 // 4. Adding & Removing Array Items
 console.log("--- 4. Adding and removing array items ---");
@@ -91,8 +91,7 @@ console.log(`My favorite foods are now; ${foodArray}`);
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
 
-sortFood = foodArray.sort();
-sortFood = foodArray.reverse();
+sortFood = foodArray.sort().reverse();
 console.log(`I sorted the food and then reversed it`, sortFood);
 console.log(`My foods are now sorted; ${foodArray}`);
 
